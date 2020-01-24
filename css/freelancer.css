@@ -9570,6 +9570,9 @@ a.text-dark:hover, a.text-dark:focus {
 .customeneas3{
   padding-bottom: 0;
 }
+.customeneasFonts{
+  font-family: 'Play', sans-serif;
+}
 
 .page-section .page-section-heading {
   font-size: 2.25rem;
