@@ -1,0 +1,23 @@
+Videogames can clearly consume the attention of children and adolescents.However, it is
+important to assess the extent that videogame
+technology had an impact on childhood education. Since videogames have the capacity to
+engage children in learning experiences, this
+has led to the rise of “edu-tainment” media. Just
+by watching children it becomes very clear that
+they prefer this type of approach to learning.
+So we try to design and implement games that have educational characteristics and are still fun.
+
+Research dating
+right back to the early 1980s has consistently
+shown that playing computer games
+(irrespective of genre) produces reductions in
+reaction times, improved hand-eye
+co-ordination and raises players’ self-esteem.
+What’s more, curiosity, fun and the nature of
+the challenge also appear to add to a game’s
+educational potential
+
+
+Τα βιντεοπαιχνίδια ειναι φανέρο οτι εχουν την ικανοτητα να κεντριζουν το ενδιαφερον των παιδιων και των εφήβων.
+Σαφως και αποτελει ενα μεσο διασκεδασης μικρων και μεγαλων,ωστοσο αυτο δεν τους αφερει την δυνατοτητα να εχουν και εκπεδευτικο χαρακτηρα,
+με αξιοσημιοτα αποτελεσματα στην μαθηση. Στοχος μας ειναι να δημιουργησουμε παιχνιδια διασκεδαστικα και εκπεδευτικα.

@@ -1,4 +1,4 @@
-
+var abouttext="Videogames can clearly consume the attention of children and adolescents.However, it is important to assess the extent that videogame technology had an impact on childhood education. Since videogames have the capacity to engage children in learning experiences, this has led to the rise of “edu-tainment” media. Just by watching children it becomes very clear that they prefer this type of approach to learning.So we try to design and implement games that have educational characteristics and are still fun."
 
 function createplaystorbadge(hreflink,imgsrc){
     var node = document.createElement("a");                 // Create a <a> node
@@ -17,7 +17,7 @@ var translations={
         navgames:"Games",
         navabout:"About",
         navcontact:"Contact",
-        aboutpar:"bla bla bla",
+        aboutpar:abouttext,
         aboutsection:"About",
         gamesection:"Our Games",
         contactme:"Ask me anything",
