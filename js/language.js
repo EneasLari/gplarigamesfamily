@@ -1,4 +1,4 @@
-var abouttext="Videogames can clearly consume the attention of children and adolescents.However, it is important to assess the extent that videogame technology had an impact on childhood education. Since videogames have the capacity to engage children in learning experiences, this has led to the rise of “edu-tainment” media. Just by watching children it becomes very clear that they prefer this type of approach to learning.So we try to design and implement games that have educational characteristics and are still fun. f a child can't learn the way we teach, maybe we should teach the way they learn."
+var abouttext="Videogames can clearly consume the attention of children and adolescents.For sure videogames is one of the main entertaiment media of young people,that does not mean that they can not serve well as educational media with significant good results in the learning process. Our goal is to design and implement fun and still educational games. If a child can't learn the way we teach, maybe we should teach the way they learn."
 
 function createplaystorbadge(hreflink,imgsrc){
     var node = document.createElement("a");                 // Create a <a> node

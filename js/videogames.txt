@@ -17,7 +17,14 @@ What’s more, curiosity, fun and the nature of
 the challenge also appear to add to a game’s
 educational potential
 
+Τα βιντεοπαιχνίδια είναι φανέρο οτι έχουν την δυνατότητα να 
+κεντρίζουν το ενδιαφέρον των παιδιών και των εφήβων.
+Σαφώς και αποτελεί ενα μέσο διασκέδασης μικρών και 
+μεγάλων,ωστόσο αυτο δεν σημαίνει οτι δεν μπόρουν αποτελέσουν και ενα μέσο εκπαίδευσης,
+με αξιοσημείωτα αποτελέσματα στην μαθηση. 
+Στόχος μας είναι να δημιουργήσουμε παιχνίδια διασκεδαστικά και συνάμα εκπαιδευτικά.
 
-Τα βιντεοπαιχνίδια ειναι φανέρο οτι εχουν την ικανοτητα να κεντριζουν το ενδιαφερον των παιδιων και των εφήβων.
-Σαφως και αποτελει ενα μεσο διασκεδασης μικρων και μεγαλων,ωστοσο αυτο δεν τους αφερει την δυνατοτητα να εχουν και εκπεδευτικο χαρακτηρα,
-με αξιοσημιοτα αποτελεσματα στην μαθηση. Στοχος μας ειναι να δημιουργησουμε παιχνιδια διασκεδαστικα και εκπεδευτικα.
+Videogames can clearly consume the attention of children and adolescents.For sure 
+videogames is one of the main entertaiment media of young people,that does not mean that 
+they can not serve well as educational media with significant good results in the learning process.
+Our goal is to design and implement fun and still educational games.  
