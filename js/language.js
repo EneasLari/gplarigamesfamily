@@ -46,13 +46,13 @@ var translations={
 // }, "jsonp");
 //
 var request = new XMLHttpRequest();
-request.open('GET', 'https://api.ipdata.co/?api-key=test');
+request.open('GET', 'http://ip-api.com/json');
 request.setRequestHeader('Accept', 'application/json');
 request.onreadystatechange = function () {
   if (this.readyState === 4) {
-    //console.log(JSON.parse(this.responseText).country_code);
+    //console.log(JSON.parse(this.responseText).countryCode);
     //if the ip is NOT from greece or icant get the ip then translate to english
-    if(JSON.parse(this.responseText).country_code==null || !(JSON.parse(this.responseText).country_code==="GR")){
+    if(JSON.parse(this.responseText).countryCode==null || !(JSON.parse(this.responseText).countryCode==="GR")){
         document.getElementById("navphrase").textContent=translations.en.phrase;
         document.getElementById("navgames").textContent=translations.en.navgames;
         document.getElementById("navabout").textContent=translations.en.navabout;
