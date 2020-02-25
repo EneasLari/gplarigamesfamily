@@ -23,7 +23,7 @@ var translations={
         contactme:"Ask me anything",
         name:{placeholder:"Name"},
         email:{placeholder:"Email"},
-        phone:{placeholder:"Email"},
+        phone:{placeholder:"Phone"},
         message:{placeholder:"Message"},
         labelname:"Name",
         labelemail:"Email",
@@ -49,11 +49,15 @@ var request = new XMLHttpRequest();
 request.open('GET', 'http://ip-api.com/json');
 request.setRequestHeader('Accept', 'application/json');
 request.onreadystatechange = function () {
+    //console.log("STATE="+this.readyState);
   if (this.readyState === 4) {
-    //console.log(JSON.parse(this.responseText).countryCode);
+    //console.log("LAnguage="+JSON.parse(this.responseText).countryCode);
     //if the ip is NOT from greece or icant get the ip then translate to english
-    if(JSON.parse(this.responseText).countryCode==null || !(JSON.parse(this.responseText).countryCode==="GR")){
-        document.getElementById("navphrase").textContent=translations.en.phrase;
+    //console.log("ISGREEK="+(JSON.parse(this.responseText).countryCode==="GR"));
+    //console.log("ISNULL="+(JSON.parse(this.responseText).countryCode==null));
+    if(!(JSON.parse(this.responseText).countryCode==="GR")){
+        //console.log("YES ITS IS="+(JSON.parse(this.responseText).countryCode==="GR"));
+        //document.getElementById("navphrase").textContent=translations.en.phrase;
         document.getElementById("navgames").textContent=translations.en.navgames;
         document.getElementById("navabout").textContent=translations.en.navabout;
         document.getElementById("navcontact").textContent=translations.en.navcontact;
