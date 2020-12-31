@@ -154,4 +154,7 @@
     .square-title {
         height: 100px;
     }
+    header{
+        padding-top: 15px !important;
+    }
 }
