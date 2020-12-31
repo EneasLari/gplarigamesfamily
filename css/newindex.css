@@ -22,6 +22,7 @@
 }
 
 .square {
+    transition: height 1s ease;
     height: 100px;
     width: 100px;
     margin-left: auto;
@@ -76,6 +77,39 @@
     color: inherit;
 }
 
+.text-box {
+    background-color: rgb(180, 149, 232);
+    position: relative;
+    width: 100%;
+    padding-top:100%;
+    vertical-align: middle;
+}
+
+.text-box .text {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);/* Use a translation to move the element up by half its own height. (The '50%' in 'translate(0, -50%)' refers to the height of the element itself.) */
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    word-wrap: break-word;
+}
+
+.text-box2 {
+    background-color: rgb(180, 149, 232);
+    position: relative;
+    padding-top:100%;
+    max-width: 400px;
+    vertical-align: middle;
+}
+
+.textwraper{
+    top: 50%;
+    padding-top: translate(0, -50%);
+    transform: translate(0, -50%);/* Use a translation to move the element up by half its own height. (The '50%' in 'translate(0, -50%)' refers to the height of the element itself.) */
+    /* font-size: 32px; */
+    /* padding-top: 100%; */
+}
 
 @keyframes rotate360 {
     100% {
@@ -149,12 +183,14 @@
         line-height: 50px;
         height: 100%;
         width: 100%;
+        font-family: ClearSans, HelveticaNeue, Helvetica, Arial, serif;
     }
 
     .square-title {
         height: 100px;
     }
-    header{
+
+    header {
         padding-top: 15px !important;
     }
 }
