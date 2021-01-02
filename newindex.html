@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- Custom Styles -->
@@ -33,8 +32,7 @@
                 </div>
                 <div class="d-md-inline-flex flex-row">
                     <div class="square text-center" style="background-color: #FB8A5F;">
-                        <a class="squarelink" href="#"
-                            style="font-family: ClearSans,HelveticaNeue,Helvetica,Arial,serif;">Apps</a>
+                        <a class="squarelink" href="#">Apps</a>
                     </div>
                     <div class="square text-center" style="background-color:  #4ABEFB;">
                         <a class="squarelink" href="#">About</a>
@@ -46,79 +44,87 @@
             </div>
         </div>
 
-
-        <!-- <div class="container d-md-flex justify-content-center">
-            <div class="d-flex justify-content-center">
-                <a class="navbar-brand" href="#" style="padding: 0px;margin: 0px;">
-                    <img src="emucon.svg" alt="" width="93" height="93" style="background-color: rgb(26, 9, 66);">
-                </a>
-            </div>
-            <nav class="navbar navbar-expand navbar-light bg-light d-md-flex justify-content-center"
-                style="padding: 0px;">
-                <div class="d-flex justify-content-center">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon">
-                        </span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item text-center" style="background-color: #FB8A5F;">
-                                <a class="nav-link" href="#">Apps</a>
-                            </li>
-                            <li class="nav-item text-center" style="background-color:  #4ABEFB;">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item text-center" style="background-color: #FCAAC9;">
-                                <a class="nav-link" href="#">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div> -->
-
-
     </header>
 
     <!--==================== END OF HEADER SECTION ========================================-->
 
 
-    <!--==================== Games Section SECTION ========================================-->
+    <!--==================== Games  SECTION ========================================-->
 
-    <!-- <div class="text-box">
-        <div style="background-color: cadetblue;">
-            <div class="text ">
-                SOme text Here gdbbd ggsg gSOme text Here gdbbd
+    <div class="container-fluid">
+        <!-- Card -->
+        <div class="card videocards">
+            <div id="beforeplay">
+                <!-- Card image -->
+                <img class="card-img-top" src="img/Untitled.png" alt="Card image cap">
+                <!-- Card content -->
+                <div class="card-body-centered text-white text-center">
+                    <h1>GAMES FOR KIDS</h1>
+                    <p>Educate your kid through gaming</p>
+                    <button id="playvideo" type="button" class="btn btn-success" style="visibility: hidden;">Play1</button>
+                </div>
+            </div>
+            <div id="afterplay" style="display: none;">
+                <div class="ratio ratio-16x9">
+                    <iframe style="display: none;" id="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video" allowfullscreen></iframe>
+                    <div id="player0"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Card -->
+        <div class="card videocards">
+
+            <div id="beforeplay">
+                <!-- Card image -->
+                <img class="card-img-top" src="img/game1.PNG" alt="Card image cap">
+                <!-- Card content -->
+                <div class="card-body-centered text-white text-center">
+                    <h1>GAMES FOR KIDS</h1>
+                    <p>Educate your kid through gaming</p>
+                    <button id="playvideo" type="button" class="btn btn-success" style="visibility: hidden;">Play2</button>
+                </div>
+            </div>
+            <div id="afterplay" style="display: none;">
+                <div class="ratio ratio-16x9">
+                    <iframe style="display: none;" id="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video" allowfullscreen></iframe>
+                    <div id="player1"></div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="container text-center">
+
+    </div>
+
+    <div class="d-md-inline-flex flex-row" style="margin-left: 20px;margin-right: 20px;">
+        <div class="card" style="border: 0px;background-color: chocolate;">
+            <div class="card-body text-center">
+                <h1 class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</h1>
+            </div>
+        </div>
+        <div class="card" style="border: 0px;background-color: burlywood;">
+            <div class="card-body text-center">
+                <h1 class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</h1>
             </div>
         </div>
     </div>
-    <div class="text-box">
-        <div style="background-color: cadetblue;margin: 10px;">
-            <div class="text ">
-                SOme text Here gdbbd ggsg gSOme text Here gdbbd ggsg gSOme text Here gdbbd ggsg g
 
-            </div>
-        </div>
-    </div>
-    </div> -->
-
-    <div class="d-inline-flex" style="border:4px;">
-        <div class="text-box2">
-            <div class="textwraper">ETxt TExt TExt thrth rhgerg bfgbrfgtb trhdfb drhgdv rgdv drgdv srgdv srgedv rgv
-            </div>
-        </div>
-
-    </div>
-
+    <!--====================END OF Games  SECTION ==================================-->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
     </script>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="js/newindex.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
