@@ -66,6 +66,10 @@
     transform: translate(-50%, -50%);
 }
 
+header{
+    padding: 50px;
+}
+
 @keyframes rotate360 {
     100% {
         transform: rotate(360deg);
@@ -78,27 +82,120 @@
     }
 }
 
+@keyframes rotate90 {
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
 @keyframes bounce-7 {
     0% {
         transform: scale(1, 1) translateY(0);
     }
+
     10% {
         transform: scale(1.1, .9) translateY(0);
     }
+
     30% {
         transform: scale(.9, 1.1) translateY(-25px);
     }
+
     50% {
         transform: scale(1.05, .95) translateY(0);
     }
+
     57% {
         transform: scale(1, 1) translateY(-7px);
     }
+
     64% {
         transform: scale(1, 1) translateY(0);
     }
+
     100% {
         transform: scale(1, 1) translateY(0);
+    }
+}
+
+
+
+.youtubeplayer {
+    border-radius: 25px;
+    padding: 8px 14px;
+    visibility: hidden;
+    border-color: rgb(51, 51, 51);
+    background-color: rgba(51, 51, 51, 0.6);
+}
+
+.youtubeplayer:hover {
+    border-color: rgb(51, 51, 51);
+    background-color: rgba(51, 51, 51, 0.8);
+}
+
+
+.buttontrailercontainer {
+    line-height: 40px;
+    font-size: 24px;
+    line-height: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* font-weight: bold; */
+
+}
+
+.fa {
+    color: rgb(255, 255, 255, 1.0);
+    padding-right: 5px;
+    transform: scale(1.5);
+}
+
+footer{
+    background-color: #FB8A5F;
+    padding: 50px;
+}
+
+@media (max-width: 399.5px) {
+    header{
+        padding: 25px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .youtubeplayer {
+        border-radius: 25px;
+        padding: 4px 7px;
+        visibility: hidden;
+        border-color: rgb(51, 51, 51);
+        background-color: rgba(51, 51, 51, 0.6);
+    }
+
+    .youtubeplayer:hover {
+        border-color: rgb(51, 51, 51);
+        background-color: rgba(51, 51, 51, 0.8);
+    }
+
+
+    .buttontrailercontainer {
+        line-height: 40px;
+        font-size: 18px;
+        line-height: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        /* font-weight: bold; */
+
+    }
+
+    .fa {
+        color: rgb(255, 255, 255, 1.0);
+        padding-right: 0px;
+        transform: scale(1.5);
     }
 }
 
@@ -114,9 +211,11 @@
         align-items: center;
         background-color: coral;
     }
+
     .square:hover {
         animation: none;
     }
+
     .squarelink {
         transition: line-height 1s ease;
         color: black;
@@ -128,9 +227,11 @@
         width: 100%;
         font-family: ClearSans, HelveticaNeue, Helvetica, Arial, serif;
     }
+
     .square-title {
         height: 100px;
     }
+
     header {
         padding-top: 15px !important;
     }

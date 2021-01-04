@@ -7,43 +7,26 @@
 
 var videocards = document.getElementsByClassName("videocards")
 
-function onYouTubeIframeAPIReady() {
-    for (let index = 0; index < videocards.length; index++) {
-        const element = videocards[index];
-        var localbefore = element.querySelector("#beforeplay")
-        var localafter = element.querySelector("#afterplay")
-        var localplaybutton = element.querySelector("#playvideo")
-        var localhiddeniframe = element.querySelector("#video")
-        var strings = localhiddeniframe.src.split("/")
-        console.log(localplaybutton)
-            //InitializeEverything(localbefore, localafter, localplaybutton, localhiddeniframe);
-        var player = null;
+for (let index = 0; index < videocards.length; index++) {
+    const element = videocards[index];
+    var playbutton = element.querySelector("#playvideo");
+    playbutton.style.visibility = "visible"
+    console.log(playbutton)
+    playbutton.addEventListener("click", function (event) {
+        var video = element.querySelector("#video");
+        var beforeplay = element.querySelector("#beforeplay");
+        beforeplay.style.display = "none"
 
-        player = new YT.Player(('player' + index), {
-            videoId: strings[strings.length - 1],
-            events: {
-                'onReady': onPlayerReady
-            }
-        });
+        var afterplay = element.querySelector("#afterplay");
+        afterplay.style.display = "block"
 
-        function onPlayerReady(event) {
-            console.log(event.target)
-            localplaybutton.style.visibility = "visible"
-            localplaybutton.addEventListener("click", function() {
-                localbefore.style.display = "none";
-                localafter.style.display = "block"
-                localhiddeniframe.remove()
-                player.playVideo();
-
-            })
-        }
-
-
-    }
-}
-
-
-
-function InitializeEverything(beforeplay, afterplay, playbutton, hiddeniframe) {
+        console.log(video.src)
+        event.preventDefault();
+        console.log(video.src)
+        console.log("WE WILL call here the function for playing video " + index)
+    })
 
 }
+
+var footeryear=document.getElementById("footeryear");
+footeryear.innerHTML=(new Date()).getFullYear();
